@@ -1,0 +1,519 @@
+CKY algorithm on Book the cooks who cook the books. 
+
+(S+NP
+  (NN book)
+  (NP (DT the) (NN cooks))
+  (SBAR
+    (WHNP (WP who))
+    (S (VP (VB cook) (NP (DT the) (NNS books))) (. .))))
+
+This is the longest sentence: 
+
+Though in many natural objects, whiteness refiningly enhances beauty,
+as if imparting some special virtue of its own, as in marbles,
+japonicas, and pearls; and though various nations have in some way
+recognised a certain royal preeminence in this hue; even the
+barbaric, grand old kings of Pegu placing the title "Lord of the
+White Elephants" above all their other magniloquent ascriptions of
+dominion; and the modern kings of Siam unfurling the same snow-white
+quadruped in the royal standard; and the Hanoverian flag bearing the
+one figure of a snow-white charger; and the great Austrian Empire,
+Caesarian, heir to overlording Rome, having for the imperial colour
+the same imperial hue; and though this pre-eminence in it applies to
+the human race itself, giving the white man ideal mastership over
+every dusky tribe; and though, besides, all this, whiteness has been
+even made significant of gladness, for among the Romans a white stone
+marked a joyful day; and though in other mortal sympathies and
+symbolizings, this same hue is made the emblem of many touching,
+noble things--the innocence of brides, the benignity of age; though
+among the Red Men of America the giving of the white belt of wampum
+was the deepest pledge of honour; though in many climes, whiteness
+typifies the majesty of Justice in the ermine of the Judge, and
+contributes to the daily state of kings and queens drawn by
+milk-white steeds; though even in the higher mysteries of the most
+august religions it has been made the symbol of the divine
+spotlessness and power; by the Persian fire worshippers, the white
+forked flame being held the holiest on the altar; and in the Greek
+mythologies, Great Jove himself being made incarnate in a snow-white
+bull; and though to the noble Iroquois, the midwinter sacrifice of
+the sacred White Dog was by far the holiest festival of their
+theology, that spotless, faithful creature being held the purest
+envoy they could send to the Great Spirit with the annual tidings of
+their own fidelity; and though directly from the Latin word for
+white, all Christian priests derive the name of one part of their
+sacred vesture, the alb or tunic, worn beneath the cassock; and
+though among the holy pomps of the Romish faith, white is specially
+employed in the celebration of the Passion of our Lord; though in the
+Vision of St. John, white robes are given to the redeemed, and the
+four-and-twenty elders stand clothed in white before the great-white
+throne, and the Holy One that sitteth there white like wool; yet for
+all these accumulated associations, with whatever is sweet, and
+honourable, and sublime, there yet lurks an elusive something in the
+innermost idea of this hue, which strikes more of panic to the soul
+than that redness which affrights in blood.
+
+
+CKY Algorithm on longest sentence: 
+
+Parsing 1/4
+Parsing 2/4
+Parsing 3/4
+Parsing 4/4
+-----
+(FRAG
+  (PP
+    (IN though)
+    (NP
+      (NP
+        (UCP
+          (PP (IN in) (NP (JJ many) (JJ natural) (NN objects)))
+          (, ,)
+          (NN whiteness)
+          (ADJP (RB refiningly) (JJ enhances))
+          (NN beauty)
+          (, ,)
+          (PP
+            (IN as)
+            (NP
+              (PP
+                (IN if)
+                (S+VP
+                  (VBG imparting)
+                  (NP (DT some) (JJ special) (NN virtue))))
+              (PP
+                (IN of)
+                (NP
+                  (PRP$ its)
+                  (JJ own)
+                  (, ,)
+                  (ADVP (RB as) (PP (IN in) (NP (NN marbles))))))))
+          (, ,)
+          (NN japonicas)
+          (, ,)
+          (CC and)
+          (NN pearls)
+          (: ;)
+          (CC and)
+          (SBAR
+            (IN though)
+            (S
+              (NP (JJ various) (NNS nations))
+              (VP
+                (VBP have)
+                (PP (IN in) (NP (DT some) (NN way)))
+                (VBN recognised)
+                (NP (DT a) (JJ certain) (NN royal))))))
+        (NNS preeminence))
+      (PP (IN in) (NP (DT this) (NN hue)))))
+  (: ;)
+  (S
+    (ADVP (RB even))
+    (NP (DT the) (NN barbaric))
+    (, ,)
+    (NP (JJ grand) (JJ old) (NN kings) (PP (IN of) (NP (NNP Pegu))))
+    (VP (VBG placing) (NP (DT the) (NN title))))
+  (INTJ (`` ``) (UH Lord))
+  (PP
+    (IN of)
+    (NP
+      (DT the)
+      (NNP White)
+      (NNP Elephants)
+      ('' '')
+      (PP
+        (IN above)
+        (NP
+          (DT all)
+          (PRP$ their)
+          (JJ other)
+          (JJ magniloquent)
+          (NN ascriptions)
+          (PP (IN of) (NP (NN dominion)))))))
+  (: ;)
+  (NP
+    (CC and)
+    (DT the)
+    (JJ modern)
+    (NN kings)
+    (PP
+      (IN of)
+      (NP
+        (NNP Siam)
+        (VBG unfurling)
+        (DT the)
+        (JJ same)
+        (NN snow-white))))
+  (VP
+    (VBN quadruped)
+    (PP (IN in) (NP (DT the) (JJ royal) (NN standard))))
+  (: ;)
+  (NP (CC and) (DT the) (NNP Hanoverian) (NN flag) (NN bearing))
+  (NP
+    (NP (DT the) (CD one) (NN figure))
+    (PP (IN of) (NP (DT a) (JJ snow-white) (NN charger))))
+  (: ;)
+  (NP (CC and) (DT the) (JJ great) (NNP Austrian) (NNP Empire))
+  (NP
+    (NAC
+      (, ,)
+      (NNP Caesarian)
+      (, ,)
+      (NNP heir)
+      (PP
+        (TO to)
+        (NP
+          (NP (VBG overlording) (NN Rome))
+          (PRN
+            (, ,)
+            (PP
+              (VBG having)
+              (IN for)
+              (NP
+                (DT the)
+                (JJ imperial)
+                (NN colour)
+                (DT the)
+                (JJ same)
+                (JJ imperial)
+                (NN hue)))
+            (: ;)))))
+    (NN and)))
+Parsing 1/4: finished
+(UCP
+  (NN s)
+  (ADJP (JJ drawn) (PP (IN by) (NP (JJ milk-white) (NN steeds))))
+  (: ;)
+  (SBAR
+    (IN though)
+    (S
+      (ADVP (RB even))
+      (PP
+        (IN in)
+        (NP
+          (NP (DT the) (JJR higher) (NNS mysteries))
+          (PP
+            (IN of)
+            (NP
+              (DT the)
+              (ADJP (RBS most) (JJ august))
+              (NN religions)))))
+      (NP (PRP it))
+      (VP
+        (VBZ has)
+        (VBN been)
+        (VBN made)
+        (NP (DT the) (NN symbol))
+        (PP (IN of) (NP (DT the) (NN divine))))))
+  (NN spotlessness)
+  (CC and)
+  (NN power)
+  (: ;)
+  (PP (IN by) (NP (DT the) (NNP Persian) (NN fire) (NN worshippers)))
+  (, ,)
+  (DT the)
+  (JJ white)
+  (VP (JJ forked))
+  (NN flame)
+  (VP
+    (VBG being)
+    (VBN held)
+    (NP (DT the) (NN holiest))
+    (PP (IN on) (NP (DT the) (NN altar))))
+  (: ;)
+  (CC and)
+  (SBAR
+    (IN in)
+    (S
+      (NP (DT the) (JJ Greek) (NN mythologies))
+      (, ,)
+      (NP (NNP Great) (NNP Jove))
+      (NP (PRP himself))
+      (VP
+        (VBG being)
+        (VBN made)
+        (VB incarnate)
+        (PP (IN in) (NP (DT a) (NN snow-white))))))
+  (NN bull)
+  (: ;)
+  (CC and)
+  (SBAR
+    (IN though)
+    (S
+      (PP (TO to) (NP (DT the) (NNP noble) (NNP Iroquois)))
+      (, ,)
+      (NP
+        (DT the)
+        (JJ midwinter)
+        (NN sacrifice)
+        (PP (IN of) (NP (DT the) (JJ sacred) (NNP White) (NNP Dog))))
+      (VP
+        (VBD was)
+        (PP
+          (IN by)
+          (NP (RB far) (DT the) (JJ holiest) (NN festival)))
+        (PP (IN of) (NP (PRP$ their) (NN theology))))))
+  (, ,)
+  (PP (IN that) (NP (NN spotless)))
+  (, ,)
+  (NN faithful)
+  (NN creature)
+  (VP
+    (VBG being)
+    (VBD held)
+    (SBAR+S
+      (NP (DT the) (JJ purest) (NN envoy))
+      (NP (PRP they))
+      (VP
+        (MD could)
+        (VB send)
+        (PP
+          (TO to)
+          (NP
+            (DT the)
+            (NNP Great)
+            (NNP Spirit)
+            (PP (IN with) (NP (DT the) (JJ annual) (NN tidings)))
+            (PP (IN of) (NP (PRP$ their) (JJ own) (NN fidelity))))))))
+  (: ;)
+  (CC and)
+  (SBAR
+    (IN though)
+    (S
+      (ADVP (RB directly))
+      (VP
+        (PP (IN from) (NP (DT the) (JJ Latin) (NN word)))
+        (PP
+          (IN for)
+          (NP (JJ white) (, ,) (DT all) (JJ Christian) (NN pri)))))))
+Parsing 3/4: finished
+(S+SBAR
+  (S
+    (NP (JJ ests) (NN derive))
+    (NP (NP (DT the) (NN name)) (PP (IN of) (NP (CD one))))
+    (NP
+      (NP (NN part))
+      (PP (IN of) (NP (PRP$ their) (JJ sacred) (NN vesture))))
+    (, ,)
+    (NP (DT the) (NN alb))
+    (NP (CC or) (NNS tunic))
+    (, ,)
+    (NP (JJ worn) (NN beneath))
+    (NP (DT the) (NN cassock))
+    (: ;)
+    (CC and)
+    (ADVP (RB though))
+    (VP
+      (PP
+        (IN among)
+        (NP
+          (DT the)
+          (ADJP
+            (RB holy)
+            (JJ pomps)
+            (PP
+              (IN of)
+              (NP (NP (DT the) (NNP Romish) (NNP faith)) (, ,))))
+          (NN white)))
+      (VBZ is)
+      (ADVP (RB specially))
+      (VBN employed)
+      (PP
+        (IN in)
+        (NP
+          (NP
+            (NP (DT the) (NN celebration))
+            (PP (IN of) (NP (DT the) (NNP Passion))))
+          (PP (IN of) (NP (PRP$ our) (NNP Lord) (: ;)))))))
+  (IN though)
+  (IN in)
+  (S
+    (NP
+      (NP (DT the) (NNP Vision))
+      (PP (IN of) (NP (NNP St.) (NNP John))))
+    (, ,)
+    (NP (JJ white) (NN robes))
+    (VP
+      (VBP are)
+      (VBN given)
+      (PP (TO to) (NP (DT the) (NN redeemed)))))
+  (S
+    (, ,)
+    (CC and)
+    (NP (DT the) (JJ four-and-twenty) (NN elders))
+    (VP
+      (VB stand)
+      (VBN clothed)
+      (PP
+        (IN in)
+        (NP
+          (ADJP
+            (JJ white)
+            (PP (IN before) (NP (DT the) (NN great-white))))
+          (NN throne)))))
+  (S
+    (, ,)
+    (CC and)
+    (NP
+      (NP (DT the) (NNP Holy) (NNP One))
+      (PP (IN that) (NP (NN sitteth))))
+    (NP (EX there))
+    (VP
+      (ADJP (JJ white) (PP (IN like) (NP (NN wool))))
+      (PRN
+        (: ;)
+        (PP
+          (ADVP (RB yet))
+          (IN for)
+          (NP (DT all) (DT these) (JJ accumulated) (NN associations)))
+        (, ,))))
+  (IN with)
+  (S
+    (NP (NNS whatever))
+    (VP
+      (VBZ is)
+      (UCP
+        (NN sweet)
+        (, ,)
+        (CC and)
+        (NN honourable)
+        (, ,)
+        (CC and)
+        (JJ sublime))))
+  (, ,)
+  (S
+    (NP (EX there))
+    (ADVP (RB yet))
+    (NP (JJ lurks) (DT an) (NN elusive))
+    (NP
+      (NP (NN something))
+      (PP
+        (IN in)
+        (NP
+          (NP (DT the) (JJ innermost) (NN idea))
+          (PP (IN of) (NP (DT this) (NN hue))))))
+    (, ,)
+    (SBAR (WHNP (WDT which)) (S+VP (VBZ strikes) (NP (JJR more))))
+    (VP
+      (PP
+        (IN of)
+        (NP
+          (NN panic)
+          (S+VP
+            (TO to)
+            (VP
+              (NP (DT the) (NN soul))
+              (PP (IN than) (NP (DT that) (NN redness)))))))
+      (SBAR
+        (WHNP (WDT which))
+        (S+VP (NP (NNS affrights)) (PP (IN in) (NN blood)))))
+    (. .)))
+Parsing 4/4: finished
+(UCP
+  (PP (IN though) (NP (DT this) (NN pre-eminence)))
+  (SBAR
+    (IN in)
+    (S
+      (NP (PRP it))
+      (NP
+        (NP (NNS applies))
+        (PP (TO to) (NP (DT the) (JJ human) (NN race))))
+      (NP (PRP itself))
+      (VP
+        (, ,)
+        (S+VP (VBG giving) (NP (DT the) (JJ white) (NN man))))))
+  (NN ideal)
+  (ADJP (JJ mastership) (PP (IN over) (NP (DT every) (NN dusky))))
+  (NN tribe)
+  (: ;)
+  (CC and)
+  (ADVP (RB though))
+  (, ,)
+  (SBAR
+    (IN besides)
+    (S
+      (, ,)
+      (NP (DT all) (DT this) (, ,) (NP (NNP whiteness)))
+      (VP (VBZ has) (VBN been) (ADJP (RB even) (VBN made)))))
+  (ADJP (JJ significant))
+  (PP (IN of) (NP (NN gladness)))
+  (, ,)
+  (SBAR
+    (IN for)
+    (S
+      (PP
+        (IN among)
+        (NP (DT the) (NNP Romans) (DT a) (JJ white) (NN stone)))
+      (NP (JJ marked) (DT a) (JJ joyful) (NN day))
+      (: ;)
+      (CC and)
+      (SBAR
+        (IN though)
+        (S
+          (PP (IN in) (NP (JJ other) (NN mortal)))
+          (NP (JJ sympathies) (CC and) (NNS symbolizings))
+          (, ,)
+          (NP (DT this) (JJ same) (NN hue))
+          (VP
+            (VBZ is)
+            (VBN made)
+            (NP (DT the) (NN emblem))
+            (PP (IN of) (NP (JJ many) (NN touching))))))
+      (, ,)
+      (NP (JJ noble) (NNS things))
+      (PRN
+        (: --)
+        (NP
+          (NP
+            (NP (DT the) (NN innocence))
+            (PP
+              (IN of)
+              (NP (JJ brides) (, ,) (DT the) (NN benignity))))
+          (PP (IN of) (NP (NN age))))
+        (: ;)
+        (SBAR
+          (IN though)
+          (S
+            (PP
+              (IN among)
+              (NP
+                (DT the)
+                (NNP Red)
+                (NNP Men)
+                (PP (IN of) (NP (NNP America)))))
+            (NP
+              (DT the)
+              (PP
+                (VBG giving)
+                (IN of)
+                (NP (DT the) (JJ white) (NN belt)))
+              (PP (IN of) (NP (NN wampum))))
+            (VP
+              (VBD was)
+              (NP (DT the) (JJ deepest) (NN pledge))
+              (PP (IN of) (NP (NN honour))))))
+        (: ;))
+      (ADVP (RB though))
+      (PP (IN in) (NP (JJ many) (NN climes)))
+      (, ,)
+      (NP (JJ whiteness) (NN typifies))
+      (NP (DT the) (NN majesty))
+      (VP
+        (PP
+          (IN of)
+          (NP
+            (NP (NN Justice))
+            (PP (IN in) (NP (DT the) (NN ermine)))))
+        (PP (IN of) (NP (DT the) (NNP Judge))))))
+  (, ,)
+  (CC and)
+  (ADJP
+    (JJ contributes)
+    (PP
+      (TO to)
+      (NP
+        (NP (DT the) (JJ daily) (NN state))
+        (PP (IN of) (NP (NN kings))))))
+  (CC and)
+  (JJ queen))
+Parsing 2/4: finished
+Total time ran: 1019.5244221687317 seconds
