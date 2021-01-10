@@ -1,1 +1,1 @@
-# cs557-intro-to-nlp
+# CS557-Intro-to-NLP
