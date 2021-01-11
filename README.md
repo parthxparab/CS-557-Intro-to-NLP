@@ -7,5 +7,7 @@ Final Project -
 
 Performed Latent Dirichlet Allocation (LDA), a method to define and discover topics in text, which is a generalization of sentence parsing. Chose a short document (research paper) to use as a training documents and two test documents, one with topics like the training document and one rather different. Ran the results of the training documents and determine if they correctly identify the test documents as being similar or not. Interpreted the result.
 
+[Link to Project PDF](https://github.com/parthxparab/CS-557-Intro-to-NLP/blob/main/FinalProject_CS557_Team3/LDA.ipynb%20-%20Colaboratory.pdf)
+
 **Final Grade: A**
 
